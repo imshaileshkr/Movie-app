@@ -131,10 +131,10 @@ main {
 
 @media(max-width:456px) {
     header .logo {
-        font-size: 1rem;
+        font-size: 0.5rem;
     }
     header .logo img {
-        width: 25px;
+        width: 20px;
     }
 
     .search {
