@@ -28,6 +28,7 @@ header .logo {
     margin-left: 20px;
     display: flex;
     align-items: center;
+    display: block;
 }
 
 header .logo img {
@@ -128,3 +129,28 @@ main {
     transform: translateY(0);
 }
 
+@media(max-width:456px) {
+    header .logo {
+        font-size: 1rem;
+    }
+    header .logo img {
+        width: 25px;
+    }
+
+    .search {
+        font-size: 1rem;
+        padding: 0.3rem 0.4rem;
+    }
+}
+
+@media(max-width:340px) {
+    header .logo {
+        display: none;
+    }
+
+    .search {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
