@@ -129,8 +129,16 @@ main {
 .movie:hover .overview {
     transform: translateY(0);
 }
-
+@media(max-width:663px) {
+    .mavie{
+        width: 250px;
+    }
+       
+}
 @media(max-width:456px) {
+    .movie-info h3 {
+    font-size: 0.8rem;
+}
     header .logo {
         font-size: 0.5rem;
     }
