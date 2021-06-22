@@ -58,6 +58,7 @@ header .logo img {
 main {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .movie {
@@ -146,6 +147,10 @@ main {
 @media(max-width:360px) {
     header .logo {
         display: none;
+    }
+    header {
+        display: flex;
+        justify-content: space-evenly;
     }
 
     .search {
